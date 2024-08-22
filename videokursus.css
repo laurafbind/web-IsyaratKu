@@ -1,0 +1,428 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-color: #0C3A2D;
+    padding: 15px 80px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 91%;
+    z-index: 100;
+  
+  }
+  
+  /* navbar */
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #FFB300;
+  }
+
+  nav ul li a.active {
+    color: #FFB902;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-profile img.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.course-video video {
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.course-content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.course-content h1 {
+    font-size: 32px;
+    color: #003b2f;
+    font-weight: 900;
+}
+
+.course-content .instructor {
+    font-size: 18px;
+    color: #003b2f;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.course-content .description {
+    font-size: 16px;
+    color: #003b2f;
+    margin: 10px 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #7e7e7e; 
+    background-color: #7e7e7e;
+    margin-top: 30px;
+}
+
+.features {
+    margin: 30px 0;
+}
+
+
+.dapatkan {
+    font-size: 24px;
+    color: #003b2f;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.features button {
+    background-color: #FFB902;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #003b2f;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.features button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.features button:hover {
+    background-color: #e0a800;
+}
+
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.progress-item {
+    width: 48%;
+}
+
+.progress-item h3 {
+    font-size: 24px;
+    color: #003b2f;
+}
+
+.progress-item p {
+    font-size: 14px;
+    color: #003b2f;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background-color: #FFB902;
+    height: 100%;
+}
+
+.progress-item button {
+    background-color: #ccc;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: not-allowed;
+}
+
+.quiz-task {
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.quiz-task h3 {
+    font-size: 24px;
+    color: #003b2f;
+}
+.quiz-task p {
+    color: #003b2f;
+    font-size: 14px;
+}
+
+.quiz-task button {
+    background-color: #FFB902;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #003b2f;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 200px;
+    width: 200px;
+}
+
+.quiz-task button img {
+    width: 40px;
+}
+
+.quiz-task .file {
+    width: 65px;
+}
+
+.quiz-task button:hover {
+    background-color: #e0a800;
+}
+
+.testimonials {
+    padding: 20px;
+    background-color: #ffff;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    color: #003b2f;
+    margin-top: 10px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    width: 24%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-content h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.testimonial-content .date {
+    font-size: 12px;
+    color: #999;
+    margin-top: 3px;
+}
+
+.testimonial-content p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 18px;
+    text-align: left;
+}
+
+.rating span {
+    display: inline-block;
+}
+.related-material {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.related-material h2 {
+    font-size: 24px;
+    color: #003b2f;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.material-wrapper {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.material-list {
+    display: flex;
+    width: max-content;
+}
+
+.material-item {
+    width: 19%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.material-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.material-content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.material-content h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.material-content p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.material-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+}
+
+.material-info p {
+    margin: 10px;
+}
+
+footer {
+    background-color: #003b2f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.footer-section {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
+}

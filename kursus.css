@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0C3A2D;
+    padding: 15px 80px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 90%;
+    z-index: 100;
+  
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #FFB300;
+  }
+  
+  nav ul li a.active {
+    color: #FFB902;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .auth-buttons {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .auth-buttons .login,
+  .auth-buttons .signup {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .auth-buttons .login {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFB300;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons .signup {
+    background-color: #FFB300;
+    color: #004D40;
+    border-radius: 5px;
+  }
+
+
+
+main {
+    padding: 20px;
+}
+
+.course-info h1 {
+    color: #003b2f;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.progress-section h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.progress-section p {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.progress-percentage {
+    font-size: 1em;
+    color: #044D2C;
+    font-weight: bold;
+}
+
+.progress {
+    background-color: #FFB902;
+    height: 100%;
+}
+
+
+button {
+    background-color: #ccc;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin-left: 40px;
+}
+
+.topics-header {
+    background-color: #6D9773;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.topics-header h2 {
+    color: #ffff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.topics-header p {
+    color: #ffff;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.topic-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.topic-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.topic-details {
+    padding: 10px;
+}
+
+.topic-details p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.topic-details span {
+    font-size: 0.9em;
+    color: gray;
+}
+
+footer {
+    background-color: #003b2f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.footer-section {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
+}

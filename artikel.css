@@ -1,0 +1,247 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0C3A2D;
+    padding: 15px 80px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 88%;
+    z-index: 100;
+  
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #FFB300;
+  }
+  
+  nav ul li a.active {
+    color: #FFB902;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .auth-buttons .login,
+  .auth-buttons .signup {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .auth-buttons .login {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFB300;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons .signup {
+    background-color: #FFB300;
+    color: #004D40;
+    border-radius: 5px;
+  }
+
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.search-section input {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.latest-article h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    color: #003b2f;
+    font-weight: bold;
+}
+
+.main-article {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: #ccc;
+    border: #ccc solid;
+    border-radius: 20px;
+}
+
+.main-article img {
+    width: 50%;
+    border-radius: 20px 0 0 20px ;
+    margin-right: 20px;
+}
+
+.article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.article-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.article-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.article-details {
+    padding: 15px;
+}
+
+.article-details p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #777;
+}
+
+
+footer {
+    background-color: #003b2f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex-basis: 30%;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-section p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}

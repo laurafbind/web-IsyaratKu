@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+header {
+    background-color: #0C3A2D;
+    padding: 15px 80px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 91%;
+    z-index: 100;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #FFB300;
+  }
+
+  nav ul li a.active {
+    color:#FFB902;
+    
+}
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-profile img.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Hero Section */
+.hero-tentang-kami {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.hero-tentang-kami img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Tentang Kami Section */
+.tentang-kami {
+    padding: 50px;
+    text-align: center;
+}
+
+.tentang-kami h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004D40;
+}
+
+.tentang-kami p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Tim Kami Section */
+.tim-kami {
+    padding: 50px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.tim-kami h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004D40;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #004D40;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    padding: 30px 100px;
+    background-color: #0C3A2D;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-content, .footer-contact, .footer-social {
+    max-width: 30%;
+  }
+  
+  .footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .footer-nav ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-contact p, .footer-social h4 {
+    margin-bottom: 10px;
+  }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+    }
+
+    .auth-buttons {
+        margin-top: 10px;
+    }
+}

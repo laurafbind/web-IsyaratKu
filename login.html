@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="branding">
+                <h1>IsyaratKu</h1>
+                <p>Join our course and develop your sign language skills.</p>
+                <img src="gambar/orang.png.png" alt="orang" class="image">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="login-box">
+                <h2>Masuk</h2>
+                <p>Masuk untuk melanjutkan</p>
+                <form>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="masukkan email anda">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" placeholder="masukkan password anda">
+                            <img src="gambar/eye.png.png" alt="Eye icon" class="eye-icon" onclick="togglePassword()">
+                        </div>
+                    </div>
+                    <div class="options">
+                        <div class="ingat">
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">ingat aku</label>
+                        </div>
+                        <a href="#" class="forgot-password">Lupa password?</a>
+                    </div>
+                    <button type="submit" class="login-btn">Masuk</button>
+                    <div class="separator">or</div>
+                    <button type="button" class="google-login">
+                        <img src="gambar/google.png.png" alt="Google logo" class="google-logo">
+                        Masuk dengan Google
+                    </button>
+                </form>
+                <p class="register">Belum punya akun? <a href="regis.html">Daftar disini </a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

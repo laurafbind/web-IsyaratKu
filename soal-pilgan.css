@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6D9674;
+    color: #ffffff;
+}
+
+header {
+    background-color: #0C3A2D;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+nav a.active {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.user {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    
+}
+
+.number-grid button {
+    width: 40px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+}
+
+.number-grid button.active {
+    background-color: #ffc107;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    flex-grow: 1;
+    color: #000000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1)
+}
+
+.sign-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.one {
+    margin-left: 10rem;
+    background-color: transparent;
+    border: 2px solid rgb(103, 103, 103);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    max-width: calc(50% - 30px);
+    cursor: pointer;
+}
+
+
+.two {
+    margin-right: 4rem;
+    background-color: transparent;
+    border: 2px solid rgb(103, 103, 103);
+    border-radius: 5px;
+    max-width: calc(50% - 30px);
+    cursor: pointer;
+}
+
+.three {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid rgb(103, 103, 103);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    max-width: calc(50% - 30px);
+    cursor: pointer;
+}
+
+.four {
+    margin-right: 4rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid rgb(103, 103, 103);
+    /* padding: 0.5rem 1rem; */
+    border-radius: 5px;
+    max-width: calc(50% - 30px);
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.navigation button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

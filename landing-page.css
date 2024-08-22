@@ -1,0 +1,327 @@
+/* font keseluruhan */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Bagian Header dan Navbar */
+header {
+  background-color: #0C3A2D;
+  padding: 15px 80px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  width: 91%;
+  z-index: 100;
+
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  color: #FFF;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #FFB300;
+}
+
+nav ul li a.active {
+  color: #FFB902;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-buttons .login,
+.auth-buttons .signup {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.auth-buttons .login {
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid #FFB300;
+  border-radius: 5px;
+}
+
+.auth-buttons .signup {
+  background-color: #FFB300;
+  color: #004D40;
+  border-radius: 5px;
+}
+
+/* Bagian Hero */
+.hero {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(gambar/gradasi.png);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #004D40;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 24px 30px;
+  background-color: #FFB300;
+  color: #004D40;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #FFB300;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Bagian Kategori Kursus */
+.categories {
+  padding: 50px 100px;
+  background-color: #6D9773;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 20px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.categories h3 {
+  font-size: 28px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-item {
+  background-color: #0C3A2D;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFF;
+  width: 300px;
+}
+
+.category-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.category-item h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.category-button {
+  padding: 10px 30px;
+  background-color: #FFB300;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.category-button:hover {
+  background-color: #FFB300;
+}
+
+/* Bagian Kelebihan Kursus */
+.features {
+  padding: 50px 100px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.feature-item1 {
+  background-color: #FFB300;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.feature-item2 {
+  background-color: #6D9773;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.feature-item1 span {
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-item2 span {
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Bagian Testimoni */
+.testimonials {
+  padding: 50px 100px;
+  background-color: #6D9773;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.testimonial-item {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  width: 250px;
+}
+
+.testimonial-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.testimonial-item p {
+  font-size: 16px;
+  color: #616161;
+  margin-bottom: 15px;
+}
+
+.testimonial-item h4 {
+  font-size: 18px;
+  color: #004D40;
+}
+
+/* Bagian Footer */
+footer {
+  padding: 30px 100px;
+  background-color: #0C3A2D;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-content, .footer-contact, .footer-social {
+  max-width: 30%;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+  color: #fff;
+}
+
+.footer-contact p, .footer-social h4 {
+  margin-bottom: 10px;
+}
+
