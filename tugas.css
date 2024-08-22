@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #51684c;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e3524;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-size: 1em;
+}
+
+.container {
+    background-color: #d7e1ce;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #3f5c3f;
+}
+
+.instruction {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.instruction p {
+    margin: 0;
+    color: #333;
+}
+
+.task-list {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.upload-section {
+    background-color: #ffde77;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.file-upload {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
